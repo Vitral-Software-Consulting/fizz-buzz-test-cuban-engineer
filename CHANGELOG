@@ -1,0 +1,14 @@
+This file contains changelog entries that are not contained in the main readme.txt file (that file contains the newest entries).
+
+= 1.0.0 - 03/Oct/2017 =
+
+* FEATURE: Added the capability to the admin to manage questions
+* FIX: Fixed the plugin configuration section doesn't save the email and for that reason the email with notification was never sent to the admin.
+* TWEAK: Added tabs for the Dashboard UI
+* TWEAK: Added the configuration section to the admin page, so now all the plugin features are in the same page.
+* TWEAK: Changed in the list of freelancers applications the ID column which before display the row number, now display the database ID for the applicant.
+* TWEAK: Added some icons to the DashBoard UI
+* FEATURE: Now the frontend UI for freelance register is dinamically generated with the questions.
+* FIX: In the previous version when a freelancer was deleted their files weren't delete. Now all the files related to this freelancer are deleted.
+* REFACTOR: Added bootstrap via Composer.
+* REFACTOR: Re-organized files on the inc folder.
